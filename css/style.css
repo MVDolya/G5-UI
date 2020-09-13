@@ -1,0 +1,150 @@
+body{
+   background-color: black;
+}
+
+a {
+    text-decoration: none;
+    /*color: #000410;*/
+    color: white;
+    display: inline-block;
+
+
+}
+
+.interface{
+    border: 1px solid #13123A;
+    width: 478px;
+    height: 318px;
+    /*width: 508px;*/
+    /*height: 298px;*/
+    /*padding: 10px 0 25px;*/
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    /*display: none;*/
+}
+
+.interface__text{
+    margin-top: 25px;
+}
+
+
+
+h2{
+    color: #8C8C8C;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+.interface img{
+    margin-left: 35%;
+    width: 180px;
+    height: 180px;
+}
+
+
+.interface__btn{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 8px 15px 8px;
+}
+
+.interface__btn-01, .interface__btn-02{
+    cursor: pointer;
+    background: linear-gradient(to top, #00166C, #031D72, #003A72, #044376);
+    opacity: 0.8;
+    border-radius: 4px;
+    width: 215px;
+    height: 40px;
+
+}
+
+.interface__btn-01 .interface__btn-check{
+    display: none;
+}
+.interface__btn-02 .interface__btn-check{
+    display: none;
+}
+
+.interface__btn-check img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.interface__btn-01 a{
+    color: #010204;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 20px;
+    position: relative;
+    left: 35%;
+    top: 20%;
+
+}
+
+.interface__btn-02 a{
+    color: #010204;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 20px;
+    position: relative;
+    left: 35%;
+    top: 20%;
+}
+
+.interface__btn-01:hover .interface__btn-check{
+    display: inline-block;
+    position: absolute;
+    z-index: 15;
+
+}
+
+
+.welcome{
+    border: 2px solid #13123A;
+    width: 700px;
+    height: 320px;
+    top: 30%;
+    left: 30%;
+    position: absolute;
+
+}
+
+.welcome__text{
+    margin-top: 100px;
+    
+}
+
+.welcome__btn{
+    cursor: pointer;
+    background: linear-gradient(to top, #081204, #051F05, #013506, #044506);
+    opacity: 0.8;
+    border-radius: 4px;
+    width: 300px;
+    height: 55px;
+    position: relative;
+    left: 30%;
+    top: 35%;
+
+   
+
+}
+
+.welcome__btn a{
+    color: #010204;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 20px;
+    position: relative;
+    left: 45%;
+    top: 20%;
+}
+
+
